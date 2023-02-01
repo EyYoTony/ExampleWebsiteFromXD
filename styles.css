@@ -1,0 +1,268 @@
+/* Basic or Reused CSS */
+
+html {
+    background: rgb(0,83,155);
+    background: linear-gradient(180deg, rgba(0,83,155,1) 0%, rgba(1,60,132,1) 50%, rgba(1,33,105,1) 100%);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #FCF7E5;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #FFD960;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: #F3F2F1;
+}
+
+h1.section_title{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h2.subheading_title{
+    font-size: 2rem;
+    text-align: left;
+}
+
+div.basic_container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    width: clamp(10rem ,50% ,27.25rem);
+    margin-top: 16.75rem;
+}
+
+/* Header CSS */
+div.header_container{
+    background-color:#03539B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: clamp(25rem, 30%, 36.125rem);
+    height: 122px;
+}
+
+
+/* Homepage Section CSS */
+div.homepage_section{
+    width: 96%;
+    height: 61.25rem;
+    border-left: 2vw solid #FFFFFF;
+    border-right: 2vw solid #FFFFFF;
+    border-top: 2vw solid #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: linear-gradient(180deg, #26262600 60%, #26262677 75%, #262626 100%), url('./assets/12022_durham_pride020.png');
+    margin: 0;
+}
+
+div.title_container{
+    width: 47.5rem;
+    height: 16.875rem;
+    border: 2px solid #FFFFFF;
+    margin-top: 34.438rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.title_text_container{
+    width: 44.625rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h1.title_text{
+    color: #FFFFFF;
+    font-size: 7.813rem;
+    line-height: 7.813rem;
+    margin: 0;
+}
+
+h2.title_text{
+    color: #FFFFFF;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+hr.title_line{
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border: 0px;
+    height: 0.125rem;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+/* Info Section CSS */
+div.info_section{
+    margin-top: 16.75rem;
+}
+/* Diversity Section CSS */
+div.diversity_section{
+    margin-top: 16.75rem;
+}
+/* Criteria Section CSS */
+div.criteria_section{
+    margin-top: 16.75rem;
+}
+
+
+/* Apply Section CSS */
+
+div.apply_section{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    width: clamp(10rem ,50% ,27.25rem);
+    margin-top: 16.75rem;
+    background-position: center calc(100% - 50px);
+}
+
+p.get_started_desc{
+    font-size: 1.438rem; 
+}
+
+/* 
+    used button 18 from this website as a reference to some styling:
+    https://getcssscan.com/css-buttons-examples
+*/
+
+button.register_button{
+    align-items: center;
+    background-color: #A1B70D;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #012169;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: normal normal bold 16px/22px Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+button.register_button:active {
+  background: #012169;
+  color: rgb(255, 255, 255, .7);
+}
+
+/* Award Section CSS */
+
+div.awards_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13.75rem;
+}
+
+div.award_heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 70%;
+}
+
+div.award_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 4rem;
+}
+
+div.award {
+    width: clamp(300px, 30%, 347px);
+    margin: 10px;
+}
+
+h1.awards_title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+hr.title_bar {
+    background: #00539B;
+    border-color: #00539B;
+    border: 0px;
+    height: 0.125rem;
+    width: clamp(1rem, 10vw, 15rem);
+    margin: 0px;
+}
+
+p.award_year{
+    font-size: 1.4rem;
+}
+
+h2.award_name{
+    font-size: 1.8rem;
+    margin-top: 1.25rem;
+    white-space: nowrap;
+}
+
+p.award_desc{
+    font-size: 1.125rem;
+}
+
+/* Footer Section CSS */
+
+div.bottom_logo_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.9rem;
+}
+
+div.footer_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 4rem; 
+}
+
+p.footer_text {
+    font-size: 1rem;
+    margin: 0.5rem;
+    text-align: center
+    flex: 1;
+}
