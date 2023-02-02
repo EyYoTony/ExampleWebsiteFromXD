@@ -38,7 +38,7 @@ div.basic_container{
     margin: auto;
     flex-direction: column;
     align-items: flex-start;
-    width: clamp(10rem ,50% ,27.25rem);
+    width: clamp(10rem, 30%, 24rem);
     margin-top: 16.75rem;
 }
 
@@ -51,22 +51,27 @@ div.header_container{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: clamp(25rem, 30%, 36.125rem);
+    width: clamp(25rem, 50%, 36.125rem);
     height: 122px;
 }
 
-
 /* Homepage Section CSS */
-div.homepage_section{
-    width: 96%;
-    height: 61.25rem;
-    border-left: 2vw solid #FFFFFF;
+
+/*    border-left: 2vw solid #FFFFFF;
     border-right: 2vw solid #FFFFFF;
-    border-top: 2vw solid #FFFFFF;
+    border-top: 2vw solid #FFFFFF; */
+
+div.homepage_section{
+    width: 100%;
+    height: 61.25rem;
+
+    display: flex;
+    top: 0;
+    left: 0;
+    background-position
     background-repeat: no-repeat;
-    background-position: center center;
-    background: linear-gradient(180deg, #26262600 60%, #26262677 75%, #262626 100%), url('./assets/12022_durham_pride020.png');
-    margin: 0;
+    background: linear-gradient(180deg, #26262600 60%, #26262677 75%, #262626 100%)
+,url('./assets/12022_durham_pride020.png');
 }
 
 div.title_container{
@@ -245,9 +250,11 @@ p.award_desc{
 /* Footer Section CSS */
 
 div.bottom_logo_container{
+    margin-top: 6rem;
     display: flex;
     justify-content: center;
-    margin-top: 5.9rem;
+    margin: auto;
+    width: clamp(12.5rem ,20%, 24rem);
 }
 
 div.footer_container{
